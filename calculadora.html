@@ -1,0 +1,35 @@
+
+<html>
+    <head>
+       <title>Aula</title>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="styles.css">
+       <script src="calculadorajs.js"></script>
+
+
+ <form id="frm"  >
+    <div class="container">
+       <div id="topo"> 
+          <h1>Calculadora</h1>
+       </div>
+      
+       <div id="menu">
+            <div class="cadastro">
+             <label>Introduza os numeros:</label><br>
+             <input type="text" size="2" id="n1" placeholder="0"><br>
+             <input type="text" size="2"  id="n2" placeholder="0"><br><br>
+             <input type="button" value="+" onClick="calc(this)">
+             <input type="button" value="-" onClick="calc(this)">
+             <input type="button" value="*" onClick="calc(this)">
+             <input type="button" value="/" onClick="calc(this)">
+             <br><br>
+             <input type="text" size="5" id="result" ><br>
+             <br><br>
+             <label>Resultado:</label>
+             <input type="button" value="Limpar" onClick="limpar()">
+           </div>
+       </div>
+   
+    </div>
+ </form>
